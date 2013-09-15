@@ -6,7 +6,7 @@ You might be interested if you want to use both of the Processing and Android UI
 
 Requirements:
 =========
-- Android 2.3 or greater
+- Android 2.3 (API 9) or greater
 - Processing for Android
 
 Example:
