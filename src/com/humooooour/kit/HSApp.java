@@ -1,4 +1,4 @@
-package com.humooooour.kit.app;
+package com.humooooour.kit;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.humooooour.kit.app;
+package com.humooooour.kit;
 
 import com.humooooour.kit.R;
 

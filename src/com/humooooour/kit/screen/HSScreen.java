@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import com.humooooour.kit.app.HSApp;
+import com.humooooour.kit.HSApp;
 import com.humooooour.kit.geom.HSRect;
 
 import processing.core.PApplet;

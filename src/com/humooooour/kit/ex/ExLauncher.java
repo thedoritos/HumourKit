@@ -1,6 +1,6 @@
-package com.humooooour.kit;
+package com.humooooour.kit.ex;
 
-import com.humooooour.kit.app.HSLauncher;
+import com.humooooour.kit.HSLauncher;
 
 public class ExLauncher extends HSLauncher {
 	

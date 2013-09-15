@@ -1,4 +1,4 @@
-package com.humooooour.kit;
+package com.humooooour.kit.ex;
 
 import processing.core.PGraphics;
 import processing.core.PVector;
@@ -8,6 +8,9 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 //import com.humooooour.kit.app.HSDevice;
+import com.humooooour.kit.R;
+import com.humooooour.kit.R.id;
+import com.humooooour.kit.R.layout;
 import com.humooooour.kit.geom.HSRect;
 import com.humooooour.kit.graphics.HSColor;
 import com.humooooour.kit.screen.HSScreen;

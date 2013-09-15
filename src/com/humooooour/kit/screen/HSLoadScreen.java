@@ -2,7 +2,7 @@ package com.humooooour.kit.screen;
 
 import processing.core.PGraphics;
 
-import com.humooooour.kit.app.HSApp;
+import com.humooooour.kit.HSApp;
 import com.humooooour.kit.geom.HSRect;
 
 import static com.humooooour.kit.graphics.HSGraphics.drawBackground;

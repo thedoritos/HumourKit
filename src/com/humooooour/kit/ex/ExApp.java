@@ -1,8 +1,8 @@
-package com.humooooour.kit;
+package com.humooooour.kit.ex;
 
 import processing.core.PApplet;
 
-import com.humooooour.kit.app.HSApp;
+import com.humooooour.kit.HSApp;
 import com.humooooour.kit.geom.HSRect;
 import com.humooooour.kit.screen.HSLoadScreen;
 import com.humooooour.kit.screen.HSScreenManager;

@@ -1,7 +1,7 @@
-package com.humooooour.kit;
+package com.humooooour.kit.ex;
 
-import com.humooooour.kit.app.HSApp;
-import com.humooooour.kit.app.HSMainActivity;
+import com.humooooour.kit.HSApp;
+import com.humooooour.kit.HSMainActivity;
 import com.humooooour.kit.geom.HSRect;
 
 public class ExActivity extends HSMainActivity {
