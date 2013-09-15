@@ -1,4 +1,4 @@
 HumourKit
 =========
 
-Shabby Framework Fro Developing Android Processing Applications
+Shabby Framework For Developing Android Processing Applications
