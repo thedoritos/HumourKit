@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="HSWidget">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="HSWidget.Button">
+        <item name="android:background">@drawable/hs_button</item>
+        <item name="android:layout_width">200.0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    
+    <style name="HSWidget.Background">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">10.0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <style name="HSWidget.Dialog">
+        <item name="android:background">@drawable/hs_frame_thick</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        </style>
+    
+    <style name="HSWidget.Dialog.Title">
+        <item name="android:textSize">22sp</item>
+    </style>
+    
+    <style name="HSWidget.Dialog.Message">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:maxLines">16</item>
+    </style>
+    
+    <style name="HSWidget.Dialog.Button">
+        <item name="android:background">@drawable/hs_button</item>
+    </style>
+    
+</resources>

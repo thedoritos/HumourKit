@@ -1,0 +1,14 @@
+<resources>
+    
+    <string name="hs_launch_splash_desc">Developer Image</string>
+    
+    <string name="hs_menu_play">Play</string>
+    <string name="hs_menu_tutorial">Tutorial</string>
+    <string name="hs_menu_achievement">Achievement</string>
+    <string name="hs_menu_settings">Settings</string>
+
+    <string name="hs_game_play">Play</string>
+    <string name="hs_game_pause">Pause</string>
+    <string name="hs_game_exit">Exit</string>
+
+</resources>

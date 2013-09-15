@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <!-- play button -->
+    <Button 
+        android:id="@+id/play"
+        style="@style/HSWidget.Button"
+        android:text="@string/hs_menu_play" />
+    
+    <!-- tutorial button -->
+    <Button 
+        android:id="@+id/tutorial"
+        style="@style/HSWidget.Button"
+        android:text="@string/hs_menu_tutorial" />
+    
+    <!-- achievement button -->
+    <Button 
+        android:id="@+id/achievement"
+        style="@style/HSWidget.Button"
+        android:text="@string/hs_menu_achievement" />
+    
+    <!-- settings button -->
+    <Button 
+        android:id="@+id/settings"
+        style="@style/HSWidget.Button"
+        android:layout_marginBottom="0dp"
+        android:text="@string/hs_menu_settings" />
+    
+</LinearLayout>

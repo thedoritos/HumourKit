@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <!-- play button -->
+    <Button 
+        android:id="@+id/play"
+        style="@style/HSWidget.Button"
+        android:text="@string/hs_game_play" />
+    
+    <!-- pause button -->
+    <Button 
+        android:id="@+id/pause"
+        style="@style/HSWidget.Button"
+        android:text="@string/hs_game_pause" />
+    
+    <!-- exit button -->
+    <Button 
+        android:id="@+id/exit"
+        style="@style/HSWidget.Button"
+        android:layout_marginBottom="0dp"
+        android:text="@string/hs_game_exit" />
+    
+</LinearLayout>
