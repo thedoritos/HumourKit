@@ -9,8 +9,6 @@ import android.widget.Button;
 
 //import com.humooooour.kit.app.HSDevice;
 import com.humooooour.kit.R;
-import com.humooooour.kit.R.id;
-import com.humooooour.kit.R.layout;
 import com.humooooour.kit.geom.HSRect;
 import com.humooooour.kit.graphics.HSColor;
 import com.humooooour.kit.screen.HSScreen;
@@ -103,22 +101,16 @@ public class ExGameScreen extends HSScreen implements OnClickListener{
 
 	@Override
 	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.play:
+		
+		if (v.getId() == R.id.play) {
 			mIsPlaying = true;
-			break;
 			
-		case R.id.pause:
+		} else if (v.getId() == R.id.pause) {
 			mIsPlaying = false;
-			break;
 			
-		case R.id.exit:
+		} else if (v.getId() == R.id.exit) {
 			// exit screen
 			getApp().endPlay();
-			break;
-			
-		default:
-			break;
 		}
 	}
 	

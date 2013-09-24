@@ -20,7 +20,7 @@ public abstract class HSLauncher extends Activity {
 	 * 
 	 * @return Activity to launch.
 	 */
-	public abstract Class<?> getLaunchActivity();
+	public abstract Class<? extends Activity> getLaunchActivity();
 	
 	/**
 	 * Returns the duration until to launch the Activity in milliseconds.

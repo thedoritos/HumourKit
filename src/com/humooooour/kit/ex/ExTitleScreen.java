@@ -8,7 +8,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import com.humooooour.kit.R;
-import com.humooooour.kit.R.id;
 import com.humooooour.kit.geom.HSRect;
 import com.humooooour.kit.graphics.HSColor;
 import com.humooooour.kit.screen.HSScreen;
@@ -47,13 +46,9 @@ public class ExTitleScreen extends HSScreen implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.play:
+		if (v.getId() == R.id.play) {
 			// inflate play screen
 			getApp().beginPlay();
-			break;
-		default:
-			break;
 		}
 	}
 	

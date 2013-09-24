@@ -13,7 +13,7 @@ public class HSRect extends RectF {
 		super(left, top, right, bottom);
 	}
 	
-	public HSRect(HSRect source) {
+	public HSRect(RectF source) {
 		super(source);
 	}
 	
